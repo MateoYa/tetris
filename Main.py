@@ -12,9 +12,6 @@ for pixel in pixels:
 pixels[0][0] = 5
 SIZE = 10
 
-lkuhlkjh
-
-
 while True:
     env = np.zeros((SIZE, SIZE, 3), dtype=np.uint8)
     row = 0
