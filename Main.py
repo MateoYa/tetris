@@ -5,7 +5,7 @@ from random import randint
 pixels = []
 colors = [(0, 0, 0), (255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 0, 255)]
 for y in range(20):
-    pixels.append([randint(0, len(colors)) for x in range(10)])
+    pixels.append(0 for x in range(10))
 for pixel in pixels:
     print(pixel)
 
@@ -19,7 +19,6 @@ while True:
     for pixel_row in pixels:
         column += 1
         row = -1
-        print("hi")
         for pixel in pixel_row:
             row += 1
             env[column][row] = colors[pixel-1]
