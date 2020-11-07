@@ -2,7 +2,7 @@ from PIL import Image
 import cv2
 import numpy as np
 from random import randint
-
+import pygame
 pixels = []
 colors = [(0, 0, 0), (255, 0, 0), (0, 255, 0), (0, 0, 255), (255, 0, 255), (0, 0, 0)]
 for y in range(20):
@@ -20,17 +20,18 @@ class Block:
         return f"{self.x} {self.y}"
 
     def update(self):
-        if pixels[self.y-1][self.x] != 0:
-            pixels[self.y - 1][self.x] = 3
+        y, x, z = SIZE
+        if self.y == y-1:
+            pixels[self.y][self.x] = 3
             return "new"
-        try:
+        elif pixels[self.y + 1][self.x] != 0:
+            pixels[self.y][self.x] = 3
+            return "new"
+        else:
             pixels[self.y][self.x] = 0
             self.y += 1
             pixels[self.y][self.x] = 3
             return "keep"
-        except:
-            pixels[self.y - 1][self.x] = 3
-            return "new"
 
 
 SIZE = (20, 10, 3)

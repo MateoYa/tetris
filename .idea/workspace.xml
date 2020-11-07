@@ -34,7 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TeachingQlearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604696165382</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="one tile downward movement does not stack however">
+      <created>1604699636901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604699636901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -116,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -127,17 +136,18 @@
     <MESSAGE value="the board is proper hight and width. all the pixels get randomized at the bigening everything works correctly" />
     <MESSAGE value="i attempted to make the game start empty and it broke" />
     <MESSAGE value="the game is emtpy exsept 1 tile top left corner" />
-    <option name="LAST_COMMIT_MESSAGE" value="the game is emtpy exsept 1 tile top left corner" />
+    <MESSAGE value="one tile downward movement does not stack however" />
+    <option name="LAST_COMMIT_MESSAGE" value="one tile downward movement does not stack however" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604623050003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604623050003" />
-    <state x="340" y="86" key="CommitChangelistDialog2" timestamp="1604696165005">
+    <state x="340" y="86" key="CommitChangelistDialog2" timestamp="1604699636516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="340" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604696165005" />
+    <state x="340" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604699636516" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604695927902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -146,22 +156,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604697786681" />
-    <state width="1899" height="303" key="GridCell.Tab.0.bottom" timestamp="1604699590813">
+    <state width="1899" height="303" key="GridCell.Tab.0.bottom" timestamp="1604712797626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604699590813" />
-    <state width="1899" height="303" key="GridCell.Tab.0.center" timestamp="1604699590813">
+    <state width="1899" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604712797626" />
+    <state width="1899" height="303" key="GridCell.Tab.0.center" timestamp="1604712797626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604699590813" />
-    <state width="1899" height="303" key="GridCell.Tab.0.left" timestamp="1604699590813">
+    <state width="1899" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604712797626" />
+    <state width="1899" height="303" key="GridCell.Tab.0.left" timestamp="1604712797626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604699590813" />
-    <state width="1899" height="303" key="GridCell.Tab.0.right" timestamp="1604699590813">
+    <state width="1899" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604712797626" />
+    <state width="1899" height="303" key="GridCell.Tab.0.right" timestamp="1604712797626">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604699590813" />
+    <state width="1899" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604712797626" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1604649243530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604695913612" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604695612072">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604715329261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604695612072" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604715329261" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604650124981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
