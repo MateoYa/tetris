@@ -19,12 +19,16 @@ def wait(seconds):
 
 class Block:
     def __init__(self):
-        self.x = 5
+        self.x = []
         self.y = 1
-        #self.positions = [[1, 5], [2, 5], [3, 5], [4, 5]]
+        self.row = 0
+        self.positions = [[1, 5], [2, 5], [3, 5], [4, 5]]
         self.blockType = randint(0, 4)
-        #for pos in self.positions:
-        pixels[self.y][self.x] = 3
+        self.maxY = 0
+        self.isBlockDown = False
+        self.isCanMove = True
+        for pos in self.positions:
+            pixels[pos[0]][pos[1]] = 3
         self.canMove = True
 
     def __str__(self):
@@ -32,34 +36,76 @@ class Block:
 
     def update(self):
         y, x, z = SIZE
-        if self.y == y - 1:
-            pixels[self.y][self.x] = 3
+        for pos in self.positions:
+            if pos[0] >= self.maxY:
+                self.maxY = pos[0]
+        if self.maxY == y - 1:
+            for pos in self.positions:
+                pixels[pos[0]][pos[1]] = 3
             self.canMove = False
-            return "new"
-        elif pixels[self.y + 1][self.x] == 0:
-            pixels[self.y][self.x] = 0
-            self.y += 1
-            pixels[self.y][self.x] = 3
+            return self.placed()
+        for pos in self.positions:
+            if pixels[self.maxY + 1][pos[1]] != 0:
+                self.isBlockDown = True
+        if self.isBlockDown:
+            self.canMove = False
+            for pos in self.positions:
+                pixels[pos[0]][pos[1]] = 3
+            return self.placed()
+        else:
+            for pos in self.positions:
+                pixels[pos[0]][pos[1]] = 0
+            for pos in self.positions:
+                pos[0] += 1
+            for pos in self.positions:
+                pixels[pos[0]][pos[1]] = 3
             self.canMove = True
             self.move()
             return "keep"
-        else:
-            self.canMove = False
-            pixels[self.y][self.x] = 3
-            return "new"
+
+    def placed(self):
+        # Row Clear
+        y, x, z = SIZE
+        self.row = -1
+        for pixelRow in pixels:
+            rowClear = 0
+            self.row += 1
+            for pixel in pixelRow:
+                if pixel != 0:
+                    rowClear += 1
+                if rowClear == 10:
+                    del pixels[self.row]
+                    pixels.insert(0, [0 for x in range(10)])
+        return "new"
 
     def on_press(self, key):
         if key == keyboard.Key.left and self.canMove == True:
-            pixels[self.y][self.x] = 0
-            self.x -= 1
-            pixels[self.y][self.x] = 3
-            self.canMove = False
+            self.canMove = True
+            for pos in self.positions:
+                if pixels[pos[0]][pos[1] - 1] != 0:
+                    self.canMove = False
+            if self.canMove:
+                for pos in self.positions:
+                    pixels[pos[0]][pos[1]] = 0
+                for pos in self.positions:
+                    pos[1] -= 1
+                for pos in self.positions:
+                    pixels[pos[0]][pos[1]] = 3
+                self.canMove = False
 
         if key == keyboard.Key.right and self.canMove == True:
-            pixels[self.y][self.x] = 0
-            self.x += 1
-            pixels[self.y][self.x] = 3
-            self.canMove = False
+            self.canMove = True
+            for pos in self.positions:
+                if pixels[pos[0]][pos[1] + 1] != 0:
+                    self.canMove = False
+            if self.canMove:
+                for pos in self.positions:
+                    pixels[pos[0]][pos[1]] = 0
+                for pos in self.positions:
+                    pos[1] += 1
+                for pos in self.positions:
+                    pixels[pos[0]][pos[1]] = 3
+                self.canMove = False
 
     def move(self):
         listener = keyboard.Listener(on_press=self.on_press)
@@ -91,8 +137,5 @@ while True:
             Blocks.remove(block)
             a = Block()
             Blocks.append(a)
-            for block_ in Blocks:
-                print(block_)
-
     cv2.imshow("", img)
     cv2.waitKey(100)
