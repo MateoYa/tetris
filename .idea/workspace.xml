@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96b1c33-8af9-4b75-ab37-e07f6d185aa1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-    </list>
+    <list default="true" id="b96b1c33-8af9-4b75-ab37-e07f6d185aa1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +31,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backup.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Old_Version_Failure.py" />
   </component>
-  <component name="RunManager" selected="Python.backup">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tetris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +55,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Old Code" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tetris" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mateo\Anaconda3\envs\Tetris\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\mateo\PycharmProjects\Tetris\Old Stuff\Old_Version_Failure.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test" type="PythonConfigurationType" factoryName="Python">
       <module name="Tetris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mateo\PycharmProjects\Tetris\Old Stuff\Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backup.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mateo\PycharmProjects\Tetris\Old Stuff\Backup.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,6 +122,7 @@
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.Test" />
       <item itemvalue="Python.backup" />
+      <item itemvalue="Python.Old Code" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -173,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604942865910</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation">
+      <created>1635389411900</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635389411900</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -211,30 +237,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635389318603">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635389436260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389318603" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635389316828">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389436260" />
+    <state x="308" y="113" key="CommitChangelistDialog2" timestamp="1635389411019">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389316828" />
-    <state width="1899" height="208" key="GridCell.Tab.0.bottom" timestamp="1635389319894">
+    <state x="308" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389411019" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635389434128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
-    <state width="1899" height="208" key="GridCell.Tab.0.center" timestamp="1635389319894">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389434128" />
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom" timestamp="1635389439674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
-    <state width="1899" height="208" key="GridCell.Tab.0.left" timestamp="1635389319894">
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389439674" />
+    <state width="1899" height="208" key="GridCell.Tab.0.center" timestamp="1635389439674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
-    <state width="1899" height="208" key="GridCell.Tab.0.right" timestamp="1635389319894">
+    <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389439674" />
+    <state width="1899" height="208" key="GridCell.Tab.0.left" timestamp="1635389439674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
+    <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389439674" />
+    <state width="1899" height="208" key="GridCell.Tab.0.right" timestamp="1635389439674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389439674" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1635389407978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
