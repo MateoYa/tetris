@@ -1,3 +1,4 @@
+# Mateo's Tetris Test with open cv in python
 from PIL import Image
 import cv2
 import numpy as np
