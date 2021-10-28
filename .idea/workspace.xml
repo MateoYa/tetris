@@ -4,7 +4,6 @@
     <list default="true" id="b96b1c33-8af9-4b75-ab37-e07f6d185aa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +34,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Backup.py" />
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.backup">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Tetris" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,9 +79,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="backup" type="PythonConfigurationType" factoryName="Python">
+      <module name="Tetris" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\mateo\Anaconda3\envs\Tetris\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Main" />
       <item itemvalue="Python.Test" />
+      <item itemvalue="Python.backup" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -145,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604864444612</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation">
+      <created>1604942865910</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604942865910</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -179,76 +207,41 @@
     <MESSAGE value="one tile downward movement does not stack however" />
     <MESSAGE value="changed the system for stacking and going downwards they can know stack" />
     <MESSAGE value="single block works about to attempt to add multiable block movement" />
-    <option name="LAST_COMMIT_MESSAGE" value="single block works about to attempt to add multiable block movement" />
+    <MESSAGE value="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604716916410">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1635389318603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604716916410" />
-    <state x="340" y="86" key="CommitChangelistDialog2" timestamp="1604864444157">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389318603" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635389316828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="340" y="86" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604864444157" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604695927902">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389316828" />
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom" timestamp="1635389319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604695927902" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604716914966">
+    <state width="1899" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
+    <state width="1899" height="208" key="GridCell.Tab.0.center" timestamp="1635389319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604716914966" />
-    <state width="1899" height="303" key="GridCell.Tab.0.bottom" timestamp="1604910130167">
+    <state width="1899" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
+    <state width="1899" height="208" key="GridCell.Tab.0.left" timestamp="1635389319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604910130167" />
-    <state width="1899" height="303" key="GridCell.Tab.0.center" timestamp="1604910130167">
+    <state width="1899" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
+    <state width="1899" height="208" key="GridCell.Tab.0.right" timestamp="1635389319894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604910130167" />
-    <state width="1899" height="303" key="GridCell.Tab.0.left" timestamp="1604910130167">
+    <state width="1899" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389319894" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1635389407978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604910130167" />
-    <state width="1899" height="303" key="GridCell.Tab.0.right" timestamp="1604910130167">
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389407978" />
+    <state x="442" y="126" width="1736" height="856" key="dock-window-2" timestamp="1635389407978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604910130167" />
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1604649243530">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604649243530" />
-    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1604649243529">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604649243529" />
-    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1604649243529">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604649243529" />
-    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1604649243530">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604649243530" />
-    <state x="776" y="231" key="RollbackChangesDialog" timestamp="1604695751524">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604695751524" />
-    <state x="690" y="254" key="VcsDiffUtil.ChangesDialog" timestamp="1604695913612">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="254" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604695913612" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1604942782755">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604942782755" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604650124981">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604650124981" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604868462458">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604868462458" />
+    <state x="442" y="126" width="1736" height="856" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389407978" />
   </component>
 </project>
