@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b96b1c33-8af9-4b75-ab37-e07f6d185aa1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635389492755</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation">
+      <created>1635403867536</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635403867536</updated>
+    </task>
+    <task id="LOCAL-00012" summary="multiable block movement works being able to move into blocks is fixed row clear however there is no rotation">
+      <created>1635403947468</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635403947468</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -257,10 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635389436260" />
-    <state x="308" y="113" key="CommitChangelistDialog2" timestamp="1635403866643">
+    <state x="308" y="113" key="CommitChangelistDialog2" timestamp="1635403946683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="308" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635403866643" />
+    <state x="308" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635403946683" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1635403700755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,6 +310,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635399731172" />
+    <state x="764" y="242" key="RollbackChangesDialog" timestamp="1635404004241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="764" y="242" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1635404004241" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1635390674613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
